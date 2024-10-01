@@ -135,3 +135,65 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/*
+================================================================================
+End CSS Reset
+================================================================================
+*/
+
+body {
+    background-color: #1f38a8;
+}
+
+header {
+    color: white;
+}
+
+header h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-top: 4px solid #f09600;
+    width: fit-content;
+    padding-top: 20px;
+    float: left;
+}
+
+header h2 {
+    font-size: 24px;
+    text-align: right;
+    padding: 40px 0 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    background-color: #111f5a;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #f09600;
+    color: #111f5a;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+header,
+nav,
+article,
+footer {
+    padding: 0 15% 0 15%;
+}
+
+article {
+    background-color: white;
+}
