@@ -185,6 +185,7 @@ nav a.active {
 
 nav a:hover {
     background-color: black;
+    color: white;
 }
 
 header,
@@ -196,4 +197,17 @@ footer {
 
 article {
     background-color: white;
+    padding: 20px 15% 20px 15%;
+}
+
+article h1 {
+    font-size: 54px;
+    color: #f09600;
+    border-bottom: 2px solid #f09600;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 14pt;
 }
